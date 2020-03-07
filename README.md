@@ -20,4 +20,4 @@ For the people interested in breaking speed limits one can invoke; (e.g. in a ba
 ```
 export CFLAGS="-march=native -O3" && make
 ```
-For this very close to vanilla build `libX11` and `libXft` are required.
+For this very close to vanilla build `libX11` and `libXft` are required. You will also need `make` and the `ttf-dejavu` fonts pack installed.
