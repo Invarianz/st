@@ -13,7 +13,7 @@ There are three patches applied:
 ```
 git clone https://github.com/Invarianz/st
 cd st
-udo make install
+sudo make install
  ```
  
 For the people interested in breaking speed limits one can invoke; (e.g. in a bash shell)
