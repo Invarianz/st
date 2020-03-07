@@ -1,0 +1,63 @@
+--- a/config.def.h	2019-02-09 11:50:41.000000000 +0000
++++ b/config.def.h	2020-03-07 00:22:42.598821641 +0000
+@@ -5,8 +5,8 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+-static int borderpx = 2;
++static char *font = "DejaVu Sans Mono:size=12";
++static int borderpx = 1;
+ 
+ /*
+  * What program is execed by st depends of these precedence rules:
+@@ -42,7 +42,7 @@
+ int allowaltscreen = 1;
+ 
+ /* frames per second st should at maximum draw to the screen */
+-static unsigned int xfps = 120;
++static unsigned int xfps = 60;
+ static unsigned int actionfps = 30;
+ 
+ /*
+@@ -85,24 +85,24 @@
+ /* Terminal colors (16 first used in escape sequence) */
+ static const char *colorname[] = {
+ 	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++	"#000000",
++	"#cd0000",
++	"#4e9a06",
++	"#c4a000",
++	"#3465a4",
++	"#75507b",
++	"#06989a",
++	"#d3d7cf",
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	"#555753",
++	"#ef2929",
++	"#8ae234",
++	"#fce94f",
++	"#729fcf",
++	"#ad7fa8",
++	"#34e2e2",
++	"#eeeeec",
+ 
+ 	[255] = 0,
+ 
