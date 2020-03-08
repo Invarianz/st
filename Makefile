@@ -30,7 +30,7 @@ st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
 patch:
-	patch -p1 < patches/st-longhist-vim-keyboard-scrollback-0.8.2.diff
+	patch -p1 < patches/st-longhist-keyboard-scrollback-0.8.2.diff
 	patch -p1 < patches/st-anysize-0.8.1.diff
 	patch -p1 < patches/st-dejavu-vscode-colors.diff
 
