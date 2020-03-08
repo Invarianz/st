@@ -2,7 +2,7 @@ diff --git a/config.def.h b/config.def.h
 index 0e01717..46d3f53 100644
 --- a/config.def.h
 +++ b/config.def.h
-@@ -176,6 +177,10 @@ static Shortcut shortcuts[] = {
+@@ -176,6 +177,8 @@ static Shortcut shortcuts[] = {
  	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
  	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
  	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
